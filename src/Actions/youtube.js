@@ -1,8 +1,8 @@
-import keys from "../keys";
+import keys from '../keys';
 
 export const inputKeyword = keyword => {
   return {
-    type: "INPUT_KEYWORD_YOUTUBE",
+    type: 'INPUT_KEYWORD_YOUTUBE',
     keyword
   };
 };
@@ -10,28 +10,29 @@ export const inputKeyword = keyword => {
 export const receiveAPI = json => {
   let items = json.items;
   let searchResult = [];
+  console.log(json);
 
   if (json.pageInfo.totalResults === 0) {
-    searchResult = [{ title: "No result :(  Please try different keyword." }];
+    searchResult = [{ title: 'No result :(  Please try different keyword.' }];
   } else {
     items.forEach(x =>
       searchResult.push({
         videoId: x.id.videoId,
         title: x.snippet.title,
         thumb: x.snippet.thumbnails.default.url,
-        type: "youtube"
+        type: 'youtube'
       })
     );
   }
   return {
-    type: "RECEIVE_API_YOUTUBE",
+    type: 'RECEIVE_API_YOUTUBE',
     searchResult
   };
 };
 
 export const selectVideo = selectedVideoId => {
   return {
-    type: "SELECT_VIDEO",
+    type: 'SELECT_VIDEO',
     selectedVideoId
   };
 };
