@@ -1,15 +1,25 @@
 {
-  "main.css": "/music-and-lyrics/static/css/main.f276d7a9.chunk.css",
-  "main.js": "/music-and-lyrics/static/js/main.6500cf6d.chunk.js",
-  "main.js.map": "/music-and-lyrics/static/js/main.6500cf6d.chunk.js.map",
-  "static/css/1.200183b0.chunk.css": "/music-and-lyrics/static/css/1.200183b0.chunk.css",
-  "static/js/1.1b6164f1.chunk.js": "/music-and-lyrics/static/js/1.1b6164f1.chunk.js",
-  "static/js/1.1b6164f1.chunk.js.map": "/music-and-lyrics/static/js/1.1b6164f1.chunk.js.map",
-  "runtime~main.js": "/music-and-lyrics/static/js/runtime~main.918f57cd.js",
-  "runtime~main.js.map": "/music-and-lyrics/static/js/runtime~main.918f57cd.js.map",
-  "static/css/1.200183b0.chunk.css.map": "/music-and-lyrics/static/css/1.200183b0.chunk.css.map",
-  "static/css/main.f276d7a9.chunk.css.map": "/music-and-lyrics/static/css/main.f276d7a9.chunk.css.map",
-  "index.html": "/music-and-lyrics/index.html",
-  "precache-manifest.85c49594e97c7cabbaa3050647f1cf9e.js": "/music-and-lyrics/precache-manifest.85c49594e97c7cabbaa3050647f1cf9e.js",
-  "service-worker.js": "/music-and-lyrics/service-worker.js"
+  "files": {
+    "main.css": "/music-and-lyrics/static/css/main.07531887.chunk.css",
+    "main.js": "/music-and-lyrics/static/js/main.0e8be026.chunk.js",
+    "main.js.map": "/music-and-lyrics/static/js/main.0e8be026.chunk.js.map",
+    "runtime-main.js": "/music-and-lyrics/static/js/runtime-main.e9efff46.js",
+    "runtime-main.js.map": "/music-and-lyrics/static/js/runtime-main.e9efff46.js.map",
+    "static/css/2.764ccc25.chunk.css": "/music-and-lyrics/static/css/2.764ccc25.chunk.css",
+    "static/js/2.cc6ab9ad.chunk.js": "/music-and-lyrics/static/js/2.cc6ab9ad.chunk.js",
+    "static/js/2.cc6ab9ad.chunk.js.map": "/music-and-lyrics/static/js/2.cc6ab9ad.chunk.js.map",
+    "index.html": "/music-and-lyrics/index.html",
+    "precache-manifest.0e489b960668e811fec9bb7b7dd1e216.js": "/music-and-lyrics/precache-manifest.0e489b960668e811fec9bb7b7dd1e216.js",
+    "service-worker.js": "/music-and-lyrics/service-worker.js",
+    "static/css/2.764ccc25.chunk.css.map": "/music-and-lyrics/static/css/2.764ccc25.chunk.css.map",
+    "static/css/main.07531887.chunk.css.map": "/music-and-lyrics/static/css/main.07531887.chunk.css.map",
+    "static/js/2.cc6ab9ad.chunk.js.LICENSE": "/music-and-lyrics/static/js/2.cc6ab9ad.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e9efff46.js",
+    "static/css/2.764ccc25.chunk.css",
+    "static/js/2.cc6ab9ad.chunk.js",
+    "static/css/main.07531887.chunk.css",
+    "static/js/main.0e8be026.chunk.js"
+  ]
 }
